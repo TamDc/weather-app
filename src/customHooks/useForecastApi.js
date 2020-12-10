@@ -11,7 +11,7 @@ const dataFetchReducer = (state, action) => {
         };
       case 'FETCH_SUCCESS':
         const { consolidated_weather, title } = action.payload
-        const fiveDaysForecast = consolidated_weather.filter((_f, idx) => idx > 0 && idx < 6)
+        const fiveDaysForecast = consolidated_weather.filter((_f, idx) => idx < 5)
 
         return { 
           ...state,
