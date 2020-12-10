@@ -30,8 +30,8 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 Launches the test runner in the interactive watch mode.
 
 
-## What I done so far
-- Using React Hook to manage state
+## What I've done so far
+- Using React Hooks to manage state
 - Show forecasting for a location in 5 days, from today ![alt defaultView](./defaultView.png)
 - Search for new location to get forecasting ![alt defaultView](searchView.png)
 - Handle loading phase and Error ![alt defaultView](loadingView.png) 
@@ -42,7 +42,7 @@ Launches the test runner in the interactive watch mode.
 	- react-hooks testing also.
 
 ##  Side note.
- Because the API on assignment has issue related to CORS when calling, so I these requests with a [proxy](https://gist.github.com/jesperorb/6ca596217c8dfba237744966c2b5ab1e) to bypass. Hence, the request may be slower than usual. 
+ Because the API on assignment has issue related to CORS when calling, so I called these requests with a [proxy](https://gist.github.com/jesperorb/6ca596217c8dfba237744966c2b5ab1e) to bypass. Hence, the request may be slower than usual. 
  
  The good point is we have more time to check the loading phase >.^
 
