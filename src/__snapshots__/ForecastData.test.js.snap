@@ -1,0 +1,446 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders loading phase 1`] = `
+<div
+  className="mt-md-3"
+>
+  <div>
+    <h2
+      style={
+        Object {
+          "color": "#0055a5",
+        }
+      }
+    >
+      <img
+        alt="loading"
+        src="loading3.svg"
+      />
+    </h2>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-2"
+        style={
+          Object {
+            "maxWidth": "160px",
+            "minWidth": "132px",
+          }
+        }
+      >
+        <div
+          className="p-3 border"
+          style={
+            Object {
+              "minHeight": "120px",
+              "textAlign": "center",
+            }
+          }
+        >
+          <img
+            alt="loading"
+            className="mt-4"
+            src="loading3.svg"
+          />
+        </div>
+      </div>
+      <div
+        className="col-2"
+        style={
+          Object {
+            "maxWidth": "160px",
+            "minWidth": "132px",
+          }
+        }
+      >
+        <div
+          className="p-3 border"
+          style={
+            Object {
+              "minHeight": "120px",
+              "textAlign": "center",
+            }
+          }
+        >
+          <img
+            alt="loading"
+            className="mt-4"
+            src="loading3.svg"
+          />
+        </div>
+      </div>
+      <div
+        className="col-2"
+        style={
+          Object {
+            "maxWidth": "160px",
+            "minWidth": "132px",
+          }
+        }
+      >
+        <div
+          className="p-3 border"
+          style={
+            Object {
+              "minHeight": "120px",
+              "textAlign": "center",
+            }
+          }
+        >
+          <img
+            alt="loading"
+            className="mt-4"
+            src="loading3.svg"
+          />
+        </div>
+      </div>
+      <div
+        className="col-2"
+        style={
+          Object {
+            "maxWidth": "160px",
+            "minWidth": "132px",
+          }
+        }
+      >
+        <div
+          className="p-3 border"
+          style={
+            Object {
+              "minHeight": "120px",
+              "textAlign": "center",
+            }
+          }
+        >
+          <img
+            alt="loading"
+            className="mt-4"
+            src="loading3.svg"
+          />
+        </div>
+      </div>
+      <div
+        className="col-2"
+        style={
+          Object {
+            "maxWidth": "160px",
+            "minWidth": "132px",
+          }
+        }
+      >
+        <div
+          className="p-3 border"
+          style={
+            Object {
+              "minHeight": "120px",
+              "textAlign": "center",
+            }
+          }
+        >
+          <img
+            alt="loading"
+            className="mt-4"
+            src="loading3.svg"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`renders with data 1`] = `
+<div
+  className="mt-md-3"
+>
+  <div>
+    <h2
+      style={
+        Object {
+          "color": "#0055a5",
+        }
+      }
+    >
+      San Joe
+    </h2>
+  </div>
+  <div
+    className="container"
+  >
+    <div
+      className="row"
+    >
+      <div
+        className="col-2"
+        style={
+          Object {
+            "maxWidth": "160px",
+            "minWidth": "132px",
+          }
+        }
+      >
+        <div
+          className="p-3"
+          style={
+            Object {
+              "border": "1px solid #45aee7",
+              "minWidth": "inherit",
+              "textAlign": "center",
+            }
+          }
+        >
+          <span
+            style={
+              Object {
+                "display": "block",
+                "fontSize": "1.3rem",
+              }
+            }
+          >
+            Tomorrow
+          </span>
+          <span
+            style={
+              Object {
+                "display": "block",
+                "fontSize": "0.9rem",
+                "marginTop": "5px",
+              }
+            }
+          >
+            Min: 20°C
+          </span>
+          <span
+            style={
+              Object {
+                "display": "block",
+                "fontSize": "0.9rem",
+                "marginTop": "5px",
+              }
+            }
+          >
+            Max: 30°C
+          </span>
+        </div>
+      </div>
+      <div
+        className="col-2"
+        style={
+          Object {
+            "maxWidth": "160px",
+            "minWidth": "132px",
+          }
+        }
+      >
+        <div
+          className="p-3"
+          style={
+            Object {
+              "border": "1px solid #45aee7",
+              "minWidth": "inherit",
+              "textAlign": "center",
+            }
+          }
+        >
+          <span
+            style={
+              Object {
+                "display": "block",
+                "fontSize": "1.3rem",
+              }
+            }
+          >
+            Saturday
+          </span>
+          <span
+            style={
+              Object {
+                "display": "block",
+                "fontSize": "0.9rem",
+                "marginTop": "5px",
+              }
+            }
+          >
+            Min: 20°C
+          </span>
+          <span
+            style={
+              Object {
+                "display": "block",
+                "fontSize": "0.9rem",
+                "marginTop": "5px",
+              }
+            }
+          >
+            Max: 30°C
+          </span>
+        </div>
+      </div>
+      <div
+        className="col-2"
+        style={
+          Object {
+            "maxWidth": "160px",
+            "minWidth": "132px",
+          }
+        }
+      >
+        <div
+          className="p-3"
+          style={
+            Object {
+              "border": "1px solid #45aee7",
+              "minWidth": "inherit",
+              "textAlign": "center",
+            }
+          }
+        >
+          <span
+            style={
+              Object {
+                "display": "block",
+                "fontSize": "1.3rem",
+              }
+            }
+          >
+            Sunday
+          </span>
+          <span
+            style={
+              Object {
+                "display": "block",
+                "fontSize": "0.9rem",
+                "marginTop": "5px",
+              }
+            }
+          >
+            Min: 20°C
+          </span>
+          <span
+            style={
+              Object {
+                "display": "block",
+                "fontSize": "0.9rem",
+                "marginTop": "5px",
+              }
+            }
+          >
+            Max: 30°C
+          </span>
+        </div>
+      </div>
+      <div
+        className="col-2"
+        style={
+          Object {
+            "maxWidth": "160px",
+            "minWidth": "132px",
+          }
+        }
+      >
+        <div
+          className="p-3"
+          style={
+            Object {
+              "border": "1px solid #45aee7",
+              "minWidth": "inherit",
+              "textAlign": "center",
+            }
+          }
+        >
+          <span
+            style={
+              Object {
+                "display": "block",
+                "fontSize": "1.3rem",
+              }
+            }
+          >
+            Monday
+          </span>
+          <span
+            style={
+              Object {
+                "display": "block",
+                "fontSize": "0.9rem",
+                "marginTop": "5px",
+              }
+            }
+          >
+            Min: 20°C
+          </span>
+          <span
+            style={
+              Object {
+                "display": "block",
+                "fontSize": "0.9rem",
+                "marginTop": "5px",
+              }
+            }
+          >
+            Max: 30°C
+          </span>
+        </div>
+      </div>
+      <div
+        className="col-2"
+        style={
+          Object {
+            "maxWidth": "160px",
+            "minWidth": "132px",
+          }
+        }
+      >
+        <div
+          className="p-3"
+          style={
+            Object {
+              "border": "1px solid #45aee7",
+              "minWidth": "inherit",
+              "textAlign": "center",
+            }
+          }
+        >
+          <span
+            style={
+              Object {
+                "display": "block",
+                "fontSize": "1.3rem",
+              }
+            }
+          >
+            Tuesday
+          </span>
+          <span
+            style={
+              Object {
+                "display": "block",
+                "fontSize": "0.9rem",
+                "marginTop": "5px",
+              }
+            }
+          >
+            Min: 20°C
+          </span>
+          <span
+            style={
+              Object {
+                "display": "block",
+                "fontSize": "0.9rem",
+                "marginTop": "5px",
+              }
+            }
+          >
+            Max: 30°C
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

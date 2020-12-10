@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
-
+import React from 'react';
+import useForecastsApi from './customHooks/useForecastApi';
+import SearchBox from './SearchBox';
+import Header from './Header';
+import ForecastData from './ForecastData';
+ 
 function App() {
+  const [{ data, isLoading, isError}, getForeCast] = useForecastsApi('1252431', {
+    city: '',
+    forecast: []
+  })
+
+  if(isError) return <div style={{ color:'red' }}>Oops! Something went wrong!</div>
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container mt-4">
+      <Header />
+
+      <SearchBox getForeCast={getForeCast} />
+        
+      <ForecastData data={data} isLoading={isLoading}/>
     </div>
   );
 }
-
+ 
 export default App;
